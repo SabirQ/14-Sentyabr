@@ -109,11 +109,5 @@ namespace VCardTask.Models
         public string offset { get; set; }
         public string description { get; set; }
     }
-    public class jsonObject
-    {
-        [JsonProperty("phone")]
-        public string phone { get; set; }
-        [JsonProperty("email")]
-        public string email { get; set; }
-    }
+
 }
